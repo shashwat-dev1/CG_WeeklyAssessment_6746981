@@ -1,0 +1,32 @@
+{
+  "auth": {
+    "username": "admin",
+    "password": "password123"
+  },
+  "createBooking": {
+    "firstname": "James",
+    "lastname": "Brown",
+    "totalprice": 250,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-06-01",
+      "checkout": "2025-06-10"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "updateBooking": {
+    "firstname": "Robert",
+    "lastname": "Smith",
+    "totalprice": 400,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2025-07-01",
+      "checkout": "2025-07-15"
+    },
+    "additionalneeds": "Lunch and Dinner"
+  },
+  "filterByName": {
+    "firstname": "James",
+    "lastname": "Brown"
+  }
+}
