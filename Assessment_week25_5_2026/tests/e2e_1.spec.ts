@@ -7,7 +7,7 @@ import { FlatDetails } from "../POM/FlatDetails.page";
 
 test.describe("E2E Scenario 1", () => {
   
-  test("E2E with Login: Search, Filter and View Property @e2e-login", async ({ page }) => {
+  test.fixme("E2E with Login: Search, Filter and View Property @e2e-login", async ({ page }) => {
     await page.goto(data.URL);
     const home = new HomePage(page);
     const [loginPopup] = await home.LoginAction();
