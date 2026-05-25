@@ -1,0 +1,36 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="36.592986">
+<testsuite name="integration.spec.ts" timestamp="2026-05-25T05:24:06.460Z" hostname="chromium" tests="2" failures="0" skipped="0" time="35.002" errors="0">
+<testcase name="Integration Scenario › Integration" classname="integration.spec.ts" time="15.689">
+<system-out>
+<![CDATA[Dropdown not accessible, using direct navigation
+Selected Buy → Ready to Move
+Property card clicked - Detail page opened
+Property Details: {
+  title: [32m'3 BHK 1400 Sqft Flat  For Sale in Dada Gurudev Nagar, Jaipur'[39m,
+  price: [32m'₹65.0 Lac '[39m,
+  location: [32m'Jaipur'[39m
+}
+Attempting to contact owner...
+Contact owner clicked successfully
+Owner contacted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="Integration Scenario › Integration Test 2" classname="integration.spec.ts" time="19.313">
+<system-out>
+<![CDATA[Dropdown not accessible, using direct navigation
+Selected Buy → Ready to Move
+Already on results page for: Jaipur
+Found 60 properties
+Property card clicked - Detail page opened
+Property details screenshot captured
+Property Details: {
+  title: [32m'3 BHK 1400 Sqft Flat  For Sale in Dada Gurudev Nagar, Jaipur'[39m,
+  price: [32m'₹65.0 Lac '[39m,
+  location: [32m'Jaipur'[39m
+}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

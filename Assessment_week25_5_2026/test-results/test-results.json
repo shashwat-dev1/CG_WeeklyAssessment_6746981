@@ -1,0 +1,212 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\OMEN\\Desktop\\magicbricks-complete\\playwright.config.js",
+    "rootDir": "C:/Users/OMEN/Desktop/magicbricks-complete/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/OMEN/Desktop/magicbricks-complete/test-results/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/OMEN/Desktop/magicbricks-complete/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "test-results/html-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/test-results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.60.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "integration.spec.ts",
+      "file": "integration.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Integration Scenario",
+          "file": "integration.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Integration",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15689,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Dropdown not accessible, using direct navigation\n"
+                        },
+                        {
+                          "text": "Selected Buy → Ready to Move\n"
+                        },
+                        {
+                          "text": "Property card clicked - Detail page opened\n"
+                        },
+                        {
+                          "text": "Property Details: {\n  title: \u001b[32m'3 BHK 1400 Sqft Flat  For Sale in Dada Gurudev Nagar, Jaipur'\u001b[39m,\n  price: \u001b[32m'₹65.0 Lac '\u001b[39m,\n  location: \u001b[32m'Jaipur'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "Attempting to contact owner...\n"
+                        },
+                        {
+                          "text": "Contact owner clicked successfully\n"
+                        },
+                        {
+                          "text": "Owner contacted successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-25T05:24:06.911Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4c8f7e420cc033ba00ea-a53096308e904560a194",
+              "file": "integration.spec.ts",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "Integration Test 2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 19313,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Dropdown not accessible, using direct navigation\n"
+                        },
+                        {
+                          "text": "Selected Buy → Ready to Move\n"
+                        },
+                        {
+                          "text": "Already on results page for: Jaipur\n"
+                        },
+                        {
+                          "text": "Found 60 properties\n"
+                        },
+                        {
+                          "text": "Property card clicked - Detail page opened\n"
+                        },
+                        {
+                          "text": "Property details screenshot captured\n"
+                        },
+                        {
+                          "text": "Property Details: {\n  title: \u001b[32m'3 BHK 1400 Sqft Flat  For Sale in Dada Gurudev Nagar, Jaipur'\u001b[39m,\n  price: \u001b[32m'₹65.0 Lac '\u001b[39m,\n  location: \u001b[32m'Jaipur'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-25T05:24:22.918Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4c8f7e420cc033ba00ea-5464c083c450b23f558a",
+              "file": "integration.spec.ts",
+              "line": 27,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-25T05:24:06.440Z",
+    "duration": 36592.986000000004,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

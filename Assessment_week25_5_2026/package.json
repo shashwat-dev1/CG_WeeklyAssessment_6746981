@@ -1,0 +1,36 @@
+{
+  "name": "magicbricks-complete-automation",
+  "version": "1.0.0",
+  "description": "Complete MagicBricks automation with login, search, filters, and brochure download",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "test:login": "npx playwright test --debug login",
+    "test:search": "npx playwright test search-filter",
+    "test:brochure": "npx playwright test brochure",
+    "test:e2e": "npx playwright test e2e",
+    "test:report": "npx playwright show-report",
+    "clean": "rm -rf test-results downloads screenshots node_modules package-lock.json dist",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "pom",
+    "magicbricks"
+  ],
+  "author": "Test Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.19.41",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

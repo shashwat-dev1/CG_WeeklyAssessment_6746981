@@ -1,0 +1,44 @@
+{
+  "URL": "https://www.magicbricks.com/",
+  "readyToMoveURL": "https://www.magicbricks.com/ready-to-move-flats-in-jaipur-pppfs",
+  "searchCriteria": {
+    "location": "Jaipur",
+    "propertyType": "2 BHK",
+    "transactionType": "Buy",
+    "category": "Ready to Move"
+  },
+  "filters": {
+    "bhk": "2 BHK",
+    "minPrice": "30 Lac",
+    "maxPrice": "50 Lac",
+    "propertyStatus": "Ready to Move"
+  },
+  "locators": {
+    "homePage": {
+      "buyTab": "//a[@id='buyheading']",
+      "readyToMoveLink": "Ready to Move",
+      "loginHover": "Login",
+      "loginSignUp": "Login/Sign Up"
+    },
+    "searchPage": {
+      "cityInput": "Add more...",
+      "searchButton": "//div[contains(@class,'search') and contains(text(),'Search')] | //button[contains(@class,'search')]"
+    },
+    "listingPage": {
+      "bhkFilter": "//div[contains(@class,'bhk') or contains(@class,'BHK')] | //div[contains(@class,'filter')]//span[contains(text(),'BHK')]",
+      "propertyCards": "//div[contains(@id, 'cardid')]",
+      "getBrochureButton": "//button[contains(text(), 'Get Brochure') or contains(text(), 'Download Brochure')]"
+    },
+    "loginPage": {
+      "mobileInput": "#emailOrMobileLable",
+      "nextButton": "Next",
+      "continueButton": "Continue",
+      "verifyOtpButton": "//button[@onclick='verifyOtp()']"
+    }
+  },
+  "timeout": {
+    "default": 30000,
+    "navigation": 60000,
+    "download": 120000
+  }
+}
